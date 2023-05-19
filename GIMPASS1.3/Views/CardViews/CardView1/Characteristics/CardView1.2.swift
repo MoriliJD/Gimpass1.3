@@ -79,7 +79,11 @@ struct CardView1_2: View {
                     Text("Dabrowski's studies can help us understand the intrinsic qualities of talented learners and how they differ from other learners. Dabrowski, a Polish psychiatrist and psychologist, was particularly curious about why some people's personalities matured to the point where they would give up everything to help others, while others never progressed past being self-serving.")
                     Text("He developed the Theory of Positive Disintegration, which states that in order to achieve very high levels of personality development, one must first break down the self and then rebuild it. The idea contains multiple components and explains how gifted people build their personalities. One of the components is concerned with overexcitabilities. Overexcitabilities help to explain why gifted people perceive things more strongly than others; their worldview is distinct.")
                     Text("Dabrowski identified five modes of expression for brilliant people: psychomotor, sensual, intellectual, imaginational, and emotional. Although this notion is frequently debated in the area, almost no empirical study has been undertaken, and proof of these intensities among brilliant children is frequently anecdotal.")
-                    
+                    NavigationLink {
+                        OEsView()
+                    } label: {
+                        Text("See Traits")
+                    }
                         .font(.body)
                     
                 }
