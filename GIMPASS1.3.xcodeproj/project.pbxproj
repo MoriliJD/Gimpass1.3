@@ -25,6 +25,8 @@
 		8DE494CC2A13805700308588 /* CardView1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494CB2A13805700308588 /* CardView1.2.swift */; };
 		8DE494CE2A13806400308588 /* CardView1.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494CD2A13806400308588 /* CardView1.3.swift */; };
 		8DE494D12A13808200308588 /* CardView1.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494D02A13808200308588 /* CardView1.4.swift */; };
+		8DE494D92A173D1A00308588 /* TaitsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494D82A173D1A00308588 /* TaitsDetailView.swift */; };
+		8DE494DB2A174E6300308588 /* OEsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494DA2A174E6300308588 /* OEsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		8DE494CB2A13805700308588 /* CardView1.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.2.swift; sourceTree = "<group>"; };
 		8DE494CD2A13806400308588 /* CardView1.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.3.swift; sourceTree = "<group>"; };
 		8DE494D02A13808200308588 /* CardView1.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.4.swift; sourceTree = "<group>"; };
+		8DE494D82A173D1A00308588 /* TaitsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaitsDetailView.swift; sourceTree = "<group>"; };
+		8DE494DA2A174E6300308588 /* OEsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +133,11 @@
 		8DE494AF2A13747400308588 /* CardView1 */ = {
 			isa = PBXGroup;
 			children = (
+				8DE494D32A15E4F300308588 /* Characteristics */,
 				8DE494C82A137E6A00308588 /* ListView.swift */,
-				8DE494B42A1374FF00308588 /* CardView1.swift */,
-				8DE494CB2A13805700308588 /* CardView1.2.swift */,
 				8DE494CD2A13806400308588 /* CardView1.3.swift */,
 				8DE494D02A13808200308588 /* CardView1.4.swift */,
-				8DE494BE2A13786300308588 /* Details_CardView1 */,
+				8DE494D22A15E4C400308588 /* Theories */,
 			);
 			path = CardView1;
 			sourceTree = "<group>";
@@ -179,6 +182,33 @@
 				8DE494C42A13789E00308588 /* MIView.swift */,
 			);
 			path = Details_CardView1;
+			sourceTree = "<group>";
+		};
+		8DE494D22A15E4C400308588 /* Theories */ = {
+			isa = PBXGroup;
+			children = (
+				8DE494BE2A13786300308588 /* Details_CardView1 */,
+				8DE494B42A1374FF00308588 /* CardView1.swift */,
+			);
+			path = Theories;
+			sourceTree = "<group>";
+		};
+		8DE494D32A15E4F300308588 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				8DE494CB2A13805700308588 /* CardView1.2.swift */,
+				8DE494D62A16147800308588 /* details */,
+			);
+			path = Characteristics;
+			sourceTree = "<group>";
+		};
+		8DE494D62A16147800308588 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				8DE494D82A173D1A00308588 /* TaitsDetailView.swift */,
+				8DE494DA2A174E6300308588 /* OEsView.swift */,
+			);
+			path = details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE494D92A173D1A00308588 /* TaitsDetailView.swift in Sources */,
 				8DE494C52A13789E00308588 /* MIView.swift in Sources */,
 				8DE494C92A137E6A00308588 /* ListView.swift in Sources */,
 				8DE494AE2A13700600308588 /* ProfileView.swift in Sources */,
@@ -266,6 +297,7 @@
 				8DE4949A2A136E5800308588 /* GIMPASS1_3App.swift in Sources */,
 				8DE494B52A1374FF00308588 /* CardView1.swift in Sources */,
 				8DE494C22A13788700308588 /* GagneView.swift in Sources */,
+				8DE494DB2A174E6300308588 /* OEsView.swift in Sources */,
 				8DE494B92A13751D00308588 /* CardView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
