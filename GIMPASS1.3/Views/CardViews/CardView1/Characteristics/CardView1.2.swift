@@ -82,7 +82,7 @@ struct CardView1_2: View {
                     NavigationLink {
                         OEsView()
                     } label: {
-                        Text("See Traits")
+                        Text("See Details")
                     }
                         .font(.body)
                     
@@ -97,7 +97,14 @@ struct CardView1_2: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(10)
-                    Text("If you or someone you know is gifted, it's important to provide opportunities for intellectual and creative growth, as well as emotional support and understanding. It's also important to recognize and address the unique challenges that can accompany giftedness.")
+                    Text("1. Gifted students differ from others in ways that influence how they perceive the world, how they learn, and what their requirements are in the classroom.")
+                    Text("2. Understanding gifted learners' traits, aptitudes, behaviours, and intensities can help educators and parents support their growth. These traits disprove the idea that everyone is gifted because most students don't have them or think like them.")
+                    Text("3. The phrase gift relates to people's strengths, whereas gifted and talented is a professional term that describes learners who have characteristics and intensities that cause them to learn and experience the world differently than others.")
+                    Text("4. Gifted and gifted students exhibit asynchronous physical, cognitive, social, and emotional development. Our schools and society are structured for learners with more even development in these areas, therefore gifted learners' asynchronous development causes problems in various areas of their lives.")
+                    Text("5. G&T students vary greatly. Understanding a student's giftedness helps provide appropriate educational and social/emotional support. Cognitive ability determines students' special education needs. The more advanced or handicapped a pupil is cognitive, the more they need to modify the instructional content, setting, and tactics.")
+                    Text("6. Gifted and talented learners have common features, aptitudes, and behaviours. The qualities' expression depends on learners' giftedness, interest, cultural background, language, and economic possibilities.")
+                    Text("7. Gifted students are intense and sensitive. Dabrowski's overexcitabilities explain why gifted learners perceive the world more intensely.")
+                    Text("8. Gifted students require a variety of acquaintances who share their developmental levels and interests.")
                         .font(.body)
                 }
                 
