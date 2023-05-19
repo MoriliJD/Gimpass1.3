@@ -24,9 +24,15 @@
 		8DE494C92A137E6A00308588 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494C82A137E6A00308588 /* ListView.swift */; };
 		8DE494CC2A13805700308588 /* CardView1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494CB2A13805700308588 /* CardView1.2.swift */; };
 		8DE494CE2A13806400308588 /* CardView1.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494CD2A13806400308588 /* CardView1.3.swift */; };
-		8DE494D12A13808200308588 /* CardView1.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494D02A13808200308588 /* CardView1.4.swift */; };
 		8DE494D92A173D1A00308588 /* TaitsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494D82A173D1A00308588 /* TaitsDetailView.swift */; };
 		8DE494DB2A174E6300308588 /* OEsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494DA2A174E6300308588 /* OEsView.swift */; };
+		8DE494DF2A176E3F00308588 /* UnderachievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494DE2A176E3F00308588 /* UnderachievementView.swift */; };
+		8DE494E12A176E5F00308588 /* TwiceexceptionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */; };
+		8DE494E32A176E7600308588 /* PerfectionismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E22A176E7600308588 /* PerfectionismView.swift */; };
+		8DE494E52A176E8600308588 /* AsynchronyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E42A176E8600308588 /* AsynchronyView.swift */; };
+		8DE494E72A176E9700308588 /* OverexcitabilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */; };
+		8DE494EB2A176EC400308588 /* SocialIsolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494EA2A176EC400308588 /* SocialIsolationView.swift */; };
+		8DE494ED2A178A6500308588 /* CardView1.4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494EC2A178A6500308588 /* CardView1.4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +54,15 @@
 		8DE494C82A137E6A00308588 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8DE494CB2A13805700308588 /* CardView1.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.2.swift; sourceTree = "<group>"; };
 		8DE494CD2A13806400308588 /* CardView1.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.3.swift; sourceTree = "<group>"; };
-		8DE494D02A13808200308588 /* CardView1.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.4.swift; sourceTree = "<group>"; };
 		8DE494D82A173D1A00308588 /* TaitsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaitsDetailView.swift; sourceTree = "<group>"; };
 		8DE494DA2A174E6300308588 /* OEsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEsView.swift; sourceTree = "<group>"; };
+		8DE494DE2A176E3F00308588 /* UnderachievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderachievementView.swift; sourceTree = "<group>"; };
+		8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiceexceptionalView.swift; sourceTree = "<group>"; };
+		8DE494E22A176E7600308588 /* PerfectionismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionismView.swift; sourceTree = "<group>"; };
+		8DE494E42A176E8600308588 /* AsynchronyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronyView.swift; sourceTree = "<group>"; };
+		8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverexcitabilitiesView.swift; sourceTree = "<group>"; };
+		8DE494EA2A176EC400308588 /* SocialIsolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIsolationView.swift; sourceTree = "<group>"; };
+		8DE494EC2A178A6500308588 /* CardView1.4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +145,10 @@
 		8DE494AF2A13747400308588 /* CardView1 */ = {
 			isa = PBXGroup;
 			children = (
-				8DE494D32A15E4F300308588 /* Characteristics */,
 				8DE494C82A137E6A00308588 /* ListView.swift */,
+				8DE494DC2A176CD800308588 /* Chanllenges */,
 				8DE494CD2A13806400308588 /* CardView1.3.swift */,
-				8DE494D02A13808200308588 /* CardView1.4.swift */,
+				8DE494D32A15E4F300308588 /* Characteristics */,
 				8DE494D22A15E4C400308588 /* Theories */,
 			);
 			path = CardView1;
@@ -209,6 +221,28 @@
 				8DE494DA2A174E6300308588 /* OEsView.swift */,
 			);
 			path = details;
+			sourceTree = "<group>";
+		};
+		8DE494DC2A176CD800308588 /* Chanllenges */ = {
+			isa = PBXGroup;
+			children = (
+				8DE494EC2A178A6500308588 /* CardView1.4View.swift */,
+				8DE494DD2A176CEB00308588 /* ChanllengeDetails */,
+			);
+			path = Chanllenges;
+			sourceTree = "<group>";
+		};
+		8DE494DD2A176CEB00308588 /* ChanllengeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8DE494DE2A176E3F00308588 /* UnderachievementView.swift */,
+				8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */,
+				8DE494E22A176E7600308588 /* PerfectionismView.swift */,
+				8DE494E42A176E8600308588 /* AsynchronyView.swift */,
+				8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */,
+				8DE494EA2A176EC400308588 /* SocialIsolationView.swift */,
+			);
+			path = ChanllengeDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,12 +319,17 @@
 				8DE494C52A13789E00308588 /* MIView.swift in Sources */,
 				8DE494C92A137E6A00308588 /* ListView.swift in Sources */,
 				8DE494AE2A13700600308588 /* ProfileView.swift in Sources */,
+				8DE494EB2A176EC400308588 /* SocialIsolationView.swift in Sources */,
 				8DE494B72A13751000308588 /* CardView2.swift in Sources */,
-				8DE494D12A13808200308588 /* CardView1.4.swift in Sources */,
 				8DE494CE2A13806400308588 /* CardView1.3.swift in Sources */,
+				8DE494ED2A178A6500308588 /* CardView1.4View.swift in Sources */,
 				8DE4949C2A136E5800308588 /* HomeView.swift in Sources */,
+				8DE494E52A176E8600308588 /* AsynchronyView.swift in Sources */,
+				8DE494E72A176E9700308588 /* OverexcitabilitiesView.swift in Sources */,
+				8DE494E12A176E5F00308588 /* TwiceexceptionalView.swift in Sources */,
 				8DE494BD2A13753500308588 /* CardView5.swift in Sources */,
 				8DE494BB2A13752700308588 /* CardView4.swift in Sources */,
+				8DE494E32A176E7600308588 /* PerfectionismView.swift in Sources */,
 				8DE494C02A13787700308588 /* ThreeRingsView.swift in Sources */,
 				8DE494CC2A13805700308588 /* CardView1.2.swift in Sources */,
 				8DE494AC2A136FE300308588 /* CardHomeView.swift in Sources */,
@@ -299,6 +338,7 @@
 				8DE494C22A13788700308588 /* GagneView.swift in Sources */,
 				8DE494DB2A174E6300308588 /* OEsView.swift in Sources */,
 				8DE494B92A13751D00308588 /* CardView3.swift in Sources */,
+				8DE494DF2A176E3F00308588 /* UnderachievementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

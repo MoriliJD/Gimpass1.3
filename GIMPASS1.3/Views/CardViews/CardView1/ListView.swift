@@ -11,7 +11,7 @@ struct ListView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                Text("Get started")
+                Text("Gifted Education")
                     .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .foregroundColor(.black)
@@ -45,12 +45,11 @@ struct ListView: View {
                                     
                                     // Headline
                                     Text("Theories")
+                                        .font(.title)
+                                        .fontWeight(.light)
                                         .bold()
                                     // Description
-                                    Text("- three theories of giftedness")
-                                        .multilineTextAlignment(.leading)
-                                        .padding(.bottom, 20)
-                                        .font(.caption)
+                                   
                                    
                                 }
                                 .frame(width: 150, height: 100)
@@ -88,12 +87,11 @@ struct ListView: View {
                                     
                                     // Headline
                                     Text("Characteristics")
+                                        .font(.title2)
+                                        .fontWeight(.light)
                                         .bold()
                                     // Description
-                                    Text("- How to identify gifted students and gifted behavior")
-                                        .multilineTextAlignment(.leading)
-                                        .padding(.bottom, 20)
-                                        .font(.caption)
+                                 
                                     
                                 }
                                 .frame(width: 150, height: 100)
@@ -131,12 +129,11 @@ struct ListView: View {
                                     
                                     // Headline
                                     Text("Special Needs")
+                                        .font(.title)
+                                        .fontWeight(.light)
                                         .bold()
                                     // Description
-                                    Text("- How to meet gifted students needs")
-                                        .multilineTextAlignment(.leading)
-                                        .padding(.bottom, 20)
-                                        .font(.caption)
+                                   
                                     
                                 }
                                 .frame(width: 150, height: 100)
@@ -152,7 +149,7 @@ struct ListView: View {
                         .font(.caption)
                     // MARK: List4
                     NavigationLink {
-                        CardView1_4()
+                        CardView1_4View()
                     } label: {
                         ZStack {
                             Rectangle()
@@ -175,12 +172,11 @@ struct ListView: View {
                                     
                                     // Headline
                                     Text("Challenges")
+                                        .font(.title)
+                                        .fontWeight(.light)
                                         .bold()
                                     // Description
-                                    Text("- How to motivate gifted students")
-                                        .multilineTextAlignment(.leading)
-                                        .padding(.bottom, 20)
-                                        .font(.caption)
+                                  
                                     
                                 }
                                 .frame(width: 150, height: 100)
