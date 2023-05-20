@@ -9,7 +9,21 @@ import SwiftUI
 
 struct TwiceexceptionalView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Image("IMG1")
+                .resizable()
+                .frame(width: 400, height: 400)
+                .padding(.horizontal)
+            .ignoresSafeArea()
+            VStack{
+                Divider()
+                Text("TWICE-EXCEPTIONAL")
+                    .font(.title)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color(red: 0.996, green: 0.326, blue: 0.316))
+                Divider()
+            }
+        }
     }
 }
 
