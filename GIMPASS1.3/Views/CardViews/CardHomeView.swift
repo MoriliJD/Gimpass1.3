@@ -74,7 +74,7 @@ struct CardHomeView: View {
                     .tag(1)
                     .sheet(isPresented: $isDetailViewShowing2) {
                   
-                       CardView2()
+                       CardView_2View()
                     }
                     .buttonStyle(PlainButtonStyle())
                     .frame(width: geo.size.width - 30, height: geo.size.height - 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

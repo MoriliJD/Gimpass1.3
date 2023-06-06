@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3176DD2A2F4C5900D8C297 /* LearningCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176DC2A2F4C5900D8C297 /* LearningCharaView.swift */; };
+		8D3176DF2A2F4C9200D8C297 /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176DE2A2F4C9200D8C297 /* NoticeView.swift */; };
+		8D3176E12A2F541B00D8C297 /* CreativityCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176E02A2F541B00D8C297 /* CreativityCharaView.swift */; };
+		8D3176E32A2F543A00D8C297 /* MotivationCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176E22A2F543A00D8C297 /* MotivationCharaView.swift */; };
+		8D3176E52A2F545800D8C297 /* LeaderShipCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176E42A2F545800D8C297 /* LeaderShipCharaView.swift */; };
+		8D3176E72A2F549700D8C297 /* ArtisticChara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176E62A2F549700D8C297 /* ArtisticChara.swift */; };
+		8D3176E92A2F54BB00D8C297 /* MusicalCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176E82A2F54BB00D8C297 /* MusicalCharaView.swift */; };
+		8D3176EB2A2F54DA00D8C297 /* DramaticsChara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176EA2A2F54DA00D8C297 /* DramaticsChara.swift */; };
+		8D3176ED2A2F54F800D8C297 /* Comuni1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176EC2A2F54F800D8C297 /* Comuni1View.swift */; };
+		8D3176EF2A2F550D00D8C297 /* Comuni2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176EE2A2F550D00D8C297 /* Comuni2View.swift */; };
+		8D3176F12A2F552E00D8C297 /* PlanningCharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3176F02A2F552E00D8C297 /* PlanningCharaView.swift */; };
 		8DE4949A2A136E5800308588 /* GIMPASS1_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494992A136E5800308588 /* GIMPASS1_3App.swift */; };
 		8DE4949C2A136E5800308588 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4949B2A136E5800308588 /* HomeView.swift */; };
 		8DE4949E2A136E5A00308588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4949D2A136E5A00308588 /* Assets.xcassets */; };
@@ -30,12 +41,22 @@
 		8DE494E12A176E5F00308588 /* TwiceexceptionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */; };
 		8DE494E32A176E7600308588 /* PerfectionismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E22A176E7600308588 /* PerfectionismView.swift */; };
 		8DE494E52A176E8600308588 /* AsynchronyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E42A176E8600308588 /* AsynchronyView.swift */; };
-		8DE494E72A176E9700308588 /* OverexcitabilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */; };
 		8DE494EB2A176EC400308588 /* SocialIsolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494EA2A176EC400308588 /* SocialIsolationView.swift */; };
 		8DE494ED2A178A6500308588 /* CardView1.4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE494EC2A178A6500308588 /* CardView1.4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D3176DC2A2F4C5900D8C297 /* LearningCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCharaView.swift; sourceTree = "<group>"; };
+		8D3176DE2A2F4C9200D8C297 /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		8D3176E02A2F541B00D8C297 /* CreativityCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityCharaView.swift; sourceTree = "<group>"; };
+		8D3176E22A2F543A00D8C297 /* MotivationCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationCharaView.swift; sourceTree = "<group>"; };
+		8D3176E42A2F545800D8C297 /* LeaderShipCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderShipCharaView.swift; sourceTree = "<group>"; };
+		8D3176E62A2F549700D8C297 /* ArtisticChara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisticChara.swift; sourceTree = "<group>"; };
+		8D3176E82A2F54BB00D8C297 /* MusicalCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalCharaView.swift; sourceTree = "<group>"; };
+		8D3176EA2A2F54DA00D8C297 /* DramaticsChara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaticsChara.swift; sourceTree = "<group>"; };
+		8D3176EC2A2F54F800D8C297 /* Comuni1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comuni1View.swift; sourceTree = "<group>"; };
+		8D3176EE2A2F550D00D8C297 /* Comuni2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comuni2View.swift; sourceTree = "<group>"; };
+		8D3176F02A2F552E00D8C297 /* PlanningCharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningCharaView.swift; sourceTree = "<group>"; };
 		8DE494962A136E5800308588 /* GIMPASS1.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIMPASS1.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE494992A136E5800308588 /* GIMPASS1_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMPASS1_3App.swift; sourceTree = "<group>"; };
 		8DE4949B2A136E5800308588 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -60,7 +81,6 @@
 		8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiceexceptionalView.swift; sourceTree = "<group>"; };
 		8DE494E22A176E7600308588 /* PerfectionismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionismView.swift; sourceTree = "<group>"; };
 		8DE494E42A176E8600308588 /* AsynchronyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronyView.swift; sourceTree = "<group>"; };
-		8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverexcitabilitiesView.swift; sourceTree = "<group>"; };
 		8DE494EA2A176EC400308588 /* SocialIsolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIsolationView.swift; sourceTree = "<group>"; };
 		8DE494EC2A178A6500308588 /* CardView1.4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView1.4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D3176DB2A2F4C3900D8C297 /* Identificationdetail */ = {
+			isa = PBXGroup;
+			children = (
+				8D3176DC2A2F4C5900D8C297 /* LearningCharaView.swift */,
+				8D3176E02A2F541B00D8C297 /* CreativityCharaView.swift */,
+				8D3176E62A2F549700D8C297 /* ArtisticChara.swift */,
+				8D3176E82A2F54BB00D8C297 /* MusicalCharaView.swift */,
+				8D3176DE2A2F4C9200D8C297 /* NoticeView.swift */,
+				8D3176E22A2F543A00D8C297 /* MotivationCharaView.swift */,
+				8D3176E42A2F545800D8C297 /* LeaderShipCharaView.swift */,
+				8D3176EA2A2F54DA00D8C297 /* DramaticsChara.swift */,
+				8D3176EC2A2F54F800D8C297 /* Comuni1View.swift */,
+				8D3176F02A2F552E00D8C297 /* PlanningCharaView.swift */,
+				8D3176EE2A2F550D00D8C297 /* Comuni2View.swift */,
+			);
+			path = Identificationdetail;
+			sourceTree = "<group>";
+		};
 		8DE4948D2A136E5800308588 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				8DE494B62A13751000308588 /* CardView2.swift */,
+				8D3176DB2A2F4C3900D8C297 /* Identificationdetail */,
 			);
 			path = CardView2;
 			sourceTree = "<group>";
@@ -239,7 +278,6 @@
 				8DE494E02A176E5F00308588 /* TwiceexceptionalView.swift */,
 				8DE494E22A176E7600308588 /* PerfectionismView.swift */,
 				8DE494E42A176E8600308588 /* AsynchronyView.swift */,
-				8DE494E62A176E9700308588 /* OverexcitabilitiesView.swift */,
 				8DE494EA2A176EC400308588 /* SocialIsolationView.swift */,
 			);
 			path = ChanllengeDetails;
@@ -318,16 +356,22 @@
 				8DE494D92A173D1A00308588 /* TaitsDetailView.swift in Sources */,
 				8DE494C52A13789E00308588 /* MIView.swift in Sources */,
 				8DE494C92A137E6A00308588 /* ListView.swift in Sources */,
+				8D3176ED2A2F54F800D8C297 /* Comuni1View.swift in Sources */,
 				8DE494AE2A13700600308588 /* ProfileView.swift in Sources */,
+				8D3176EF2A2F550D00D8C297 /* Comuni2View.swift in Sources */,
 				8DE494EB2A176EC400308588 /* SocialIsolationView.swift in Sources */,
 				8DE494B72A13751000308588 /* CardView2.swift in Sources */,
 				8DE494CE2A13806400308588 /* CardView1.3.swift in Sources */,
+				8D3176E72A2F549700D8C297 /* ArtisticChara.swift in Sources */,
 				8DE494ED2A178A6500308588 /* CardView1.4View.swift in Sources */,
 				8DE4949C2A136E5800308588 /* HomeView.swift in Sources */,
 				8DE494E52A176E8600308588 /* AsynchronyView.swift in Sources */,
-				8DE494E72A176E9700308588 /* OverexcitabilitiesView.swift in Sources */,
 				8DE494E12A176E5F00308588 /* TwiceexceptionalView.swift in Sources */,
+				8D3176E52A2F545800D8C297 /* LeaderShipCharaView.swift in Sources */,
 				8DE494BD2A13753500308588 /* CardView5.swift in Sources */,
+				8D3176DD2A2F4C5900D8C297 /* LearningCharaView.swift in Sources */,
+				8D3176DF2A2F4C9200D8C297 /* NoticeView.swift in Sources */,
+				8D3176E32A2F543A00D8C297 /* MotivationCharaView.swift in Sources */,
 				8DE494BB2A13752700308588 /* CardView4.swift in Sources */,
 				8DE494E32A176E7600308588 /* PerfectionismView.swift in Sources */,
 				8DE494C02A13787700308588 /* ThreeRingsView.swift in Sources */,
@@ -336,8 +380,12 @@
 				8DE4949A2A136E5800308588 /* GIMPASS1_3App.swift in Sources */,
 				8DE494B52A1374FF00308588 /* CardView1.swift in Sources */,
 				8DE494C22A13788700308588 /* GagneView.swift in Sources */,
+				8D3176F12A2F552E00D8C297 /* PlanningCharaView.swift in Sources */,
 				8DE494DB2A174E6300308588 /* OEsView.swift in Sources */,
+				8D3176EB2A2F54DA00D8C297 /* DramaticsChara.swift in Sources */,
 				8DE494B92A13751D00308588 /* CardView3.swift in Sources */,
+				8D3176E92A2F54BB00D8C297 /* MusicalCharaView.swift in Sources */,
+				8D3176E12A2F541B00D8C297 /* CreativityCharaView.swift in Sources */,
 				8DE494DF2A176E3F00308588 /* UnderachievementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

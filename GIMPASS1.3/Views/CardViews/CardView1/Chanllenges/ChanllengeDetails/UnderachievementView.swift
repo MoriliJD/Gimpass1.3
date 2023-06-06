@@ -152,6 +152,7 @@ struct UnderachievementView: View {
             }
             
         }
+        .ignoresSafeArea()
     }
 }
 

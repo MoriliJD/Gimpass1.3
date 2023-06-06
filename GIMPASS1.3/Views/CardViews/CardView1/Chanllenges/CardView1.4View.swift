@@ -13,7 +13,6 @@ struct CardView1_4View: View {
     @State var isDetailViewShowing3 = false
     @State var isDetailViewShowing4 = false
     @State var isDetailViewShowing5 = false
-    @State var isDetailViewShowing6 = false
     @State var tabSelectionIndex = 0
     var body: some View {
         ScrollView {
@@ -154,6 +153,9 @@ struct CardView1_4View: View {
                 .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.5), radius: 5, x: -5, y: 5)
                 
                 // MARK: card5
+                
+                // MARK: card6
+                
                 Button(action:{self.isDetailViewShowing5 = true} , label:{   ZStack{
                     
                     Rectangle()
@@ -169,7 +171,7 @@ struct CardView1_4View: View {
                             .frame(width: 320,height: 260)
                             .shadow(radius: 5)
                             .padding(.horizontal)
-                        Text("Overexcitabilities")
+                        Text("Social Emotional Needs")
                             .font(.title)
                             .fontWeight(.light)
                             .foregroundColor(Color(red: 0.996, green: 0.326, blue: 0.316))
@@ -179,39 +181,6 @@ struct CardView1_4View: View {
                 }})
                 .tag(4)
                 .sheet(isPresented: $isDetailViewShowing5) {
-                    // Show the Recipe Detail View
-                    OverexcitabilitiesView()
-                }
-                .buttonStyle(PlainButtonStyle())
-                .cornerRadius(15)
-                .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.5), radius: 5, x: -5, y: 5)
-                // MARK: card6
-                
-                Button(action:{self.isDetailViewShowing6 = true} , label:{   ZStack{
-                    
-                    Rectangle()
-                        .frame(width: 350,height: 350)
-                        .foregroundColor(Color(red: 0.994, green: 0.939, blue: 0.871))
-                        .cornerRadius(10)
-                        .shadow(radius: 5)
-                        .padding(.horizontal)
-                   
-                    VStack{
-                        Image("IMG1")
-                            .resizable()
-                            .frame(width: 320,height: 260)
-                            .shadow(radius: 5)
-                            .padding(.horizontal)
-                        Text("Social Isolation")
-                            .font(.title)
-                            .fontWeight(.light)
-                            .foregroundColor(Color(red: 0.996, green: 0.326, blue: 0.316))
-                            .bold()
-                    }
-                    
-                }})
-                .tag(5)
-                .sheet(isPresented: $isDetailViewShowing6) {
                     // Show the Recipe Detail View
                     SocialIsolationView()
                 }
