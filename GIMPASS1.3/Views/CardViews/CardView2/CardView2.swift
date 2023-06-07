@@ -133,19 +133,11 @@ struct CardView_2View: View {
                     } label: {
                         Image("IMG1")
                             .resizable()
-                            .frame(width: 230,height: 200)
+                            .frame(width: 370,height: 200)
                             .cornerRadius(10)
                             .shadow(radius: 10)
                     }
-                    NavigationLink {
-                        NoticeView()
-                    } label: {
-                        Image("IMG1")
-                            .resizable()
-                            .frame(width: 140,height: 200)
-                            .cornerRadius(10)
-                            .shadow(radius: 10)
-                    }
+                   
                         
                     }
                     .padding(.horizontal)

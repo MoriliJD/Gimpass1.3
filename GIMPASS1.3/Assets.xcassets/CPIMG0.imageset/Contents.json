@@ -1,7 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "CPIMG0.JPG",
+      "filename" : "CPIMG0.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "IMG0.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
